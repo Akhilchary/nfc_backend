@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f1b63c5.css",
+    "main.js": "/static/js/main.20d3c7d1.js",
+    "static/js/787.14e48af8.chunk.js": "/static/js/787.14e48af8.chunk.js",
+    "static/media/image2.png": "/static/media/image2.827fd293f69eff7182ef.png",
+    "static/media/image3.png": "/static/media/image3.599977ee3046d70a833b.png",
+    "static/media/image-3.png": "/static/media/image-3.65b1ad3d3128ff9a060c.png",
+    "static/media/Ellipse 99.png": "/static/media/Ellipse 99.cbd74fa5686dc512967c.png",
+    "static/media/image-8.png": "/static/media/image-8.f748d9d613301153e03c.png",
+    "static/media/image-7.png": "/static/media/image-7.3a0f88f3fc7956badd99.png",
+    "static/media/image-6.png": "/static/media/image-6.d31b0ae290b928b458dc.png",
+    "static/media/image-1.png": "/static/media/image-1.8ef37ddefc8d9a32ce03.png",
+    "static/media/image1.png": "/static/media/image1.d289d28634c9927b8ffb.png",
+    "index.html": "/index.html",
+    "main.1f1b63c5.css.map": "/static/css/main.1f1b63c5.css.map",
+    "main.20d3c7d1.js.map": "/static/js/main.20d3c7d1.js.map",
+    "787.14e48af8.chunk.js.map": "/static/js/787.14e48af8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f1b63c5.css",
+    "static/js/main.20d3c7d1.js"
+  ]
+}
