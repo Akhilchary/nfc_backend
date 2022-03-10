@@ -11,7 +11,7 @@ module.exports.cust_post=async(req,res)=>{
 
 module.exports.cust_get=async(req,res)=>{
     try {
-        const allCust =CustomerModel.findOne();
+        const allCust =CustomerModel.find();
         res.status(200).json(allCust);
     } catch (err) {
         res.status(500).json(err+" could not get all customers");
