@@ -1,5 +1,6 @@
 const express=require('express');
 const dotenv = require("dotenv");
+const cors = require('cors')
 const mongoose=require("mongoose");
 const prodRoute=require('./routes/prodRoute');
 const custRoute=require('./routes/custRoute');
@@ -8,6 +9,7 @@ const userRoute=require('./routes/userRoute');
 
 
 const app=express();
+
 
 app.use(express.json());
 
@@ -22,7 +24,7 @@ mongoose.connect(process.env.MONGO_URL,{
 
 
 
-app.listen(3030,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server is listening on port 3030");
 })
 
