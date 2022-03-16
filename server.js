@@ -6,9 +6,11 @@ const prodRoute=require('./routes/prodRoute');
 const custRoute=require('./routes/custRoute');
 const servicesRoute=require('./routes/servicesRoute');
 const userRoute=require('./routes/userRoute');
-app.use(cors({ origin: true }));
+
 
 const app=express();
+
+app.use(cors({ origin: true }));
 
 
 app.use(express.json());
